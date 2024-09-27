@@ -8,6 +8,7 @@
 .home,
 .booking,
 .coffee-basics,
+.gallery,
 .sign-up {
   display: flex;
   height: 90vh;

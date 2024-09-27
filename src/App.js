@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Booking from './components/pages/Booking';
 import CoffeeBasics from './components/pages/CoffeeBasics';
 import SignUp from './components/pages/SignUp';
+import Gallery from './components/pages/Gallery';
 
 
 function App() {
@@ -18,10 +19,11 @@ function App() {
         <Routes>
 
           <Route path='/' exact element={<Home />} />
-          <Route path='booking' component={<Booking />} />
-          <Route path='coffee-basics' component={<CoffeeBasics />} />
-          <Route path='sign-up' component={<SignUp />} />
-
+          <Route path='booking' element={<Booking />} />
+          <Route path='coffee-basics' element={<CoffeeBasics />} />
+          <Route path='sign-up' element={<SignUp />} />
+          <Route path='gallery' element={<Gallery />} />
+          
         </Routes>
 
 
